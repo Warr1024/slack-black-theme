@@ -878,7 +878,6 @@ limitations under the License.
 
 /* CHANGE DEFAULT TO SIMILAR TO "LOW-CONTRAST" THEME */
 :root {
-	/* Modify these to change your theme colors: */
 	--primary: #CCC;
 	--text: #999;
 	--background: #222;
