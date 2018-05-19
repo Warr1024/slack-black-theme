@@ -1,5 +1,7 @@
 # Slack Black Theme
 
-Fork of `https://github.com/pokiujf/slack-black-theme`
+Alternative version with single-file installation, actively
+maintained for current versions of Slack.
 
-Original at `https://github.com/widget-/slack-black-theme`
+  *  Fork of `https://github.com/pokiujf/slack-black-theme`
+  *  Original at `https://github.com/widget-/slack-black-theme`
