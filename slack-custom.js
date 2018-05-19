@@ -17,26 +17,26 @@
 
 let warrCSS = `
     /* CHANGE DEFAULT TO SIMILAR TO "LOW-CONTRAST" THEME */
-    : root {
+    :root {
         --primary: #CCC;
         --text: #999;
         --background: #222;
-        --background - elevated: #111;
+        --background-elevated: #111;
     }
 
     /* MISSED TOO-LIGHT BACKGROUNDS */
-    .app_preview_link_slug, .internal_member_link, .internal_user_group_link, ts - mention, .c - member_slug, .c - reaction
-        { background - color: #111!important; }
-    .c - mrkdwn__mention, .c - mrkdwn__broadcast { background - color: #440!important; }
+    .app_preview_link_slug, .internal_member_link, .internal_user_group_link, ts-mention, .c-member_slug, .c-reaction
+        { background-color: #111 !important; }
+    .c-mrkdwn__mention, .c-mrkdwn__broadcast { background-color: #440 !important; }
 
     /* TEXT TOO DARK EVERYWHERE */
-    .c - message__body, .c - message__attachments, .c - message__attachments *,
-	    .c - menu_item__button, .channel_purpose_text, .pin_file_title
-        { color: #aaa!important; }
-    .c - unified_member__display - name, .snippet_preview { color: #777!important; }
+    .c-message__body, .c-message__attachments, .c-message__attachments *,
+        .c-menu_item__button, .channel_purpose_text, .pin_file_title
+        { color: #aaa !important; }
+    .c-unified_member__display-name, .snippet_preview { color: #777 !important; }
 
     /* "MEGAMOJI" */
-    .emoji - only { line - height: 128px!important; font - size: 128px!important; }
+    .emoji-only { line-height: 128px !important; font-size: 128px !important; }
     `;
 
 let pokiujfCSS = `
