@@ -876,12 +876,21 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+/* CHANGE DEFAULT TO SIMILAR TO "LOW-CONTRAST" THEME */
+:root {
+	/* Modify these to change your theme colors: */
+	--primary: #CCC;
+	--text: #999;
+	--background: #222;
+	--background-elevated: #111;
+}
+
 /* MISSED TOO-LIGHT BACKGROUNDS */
 .app_preview_link_slug, .internal_member_link, .internal_user_group_link, ts-mention, .c-member_slug, .c-reaction
 	{ background-color: #111 !important; }
 .c-mrkdwn__mention, .c-mrkdwn__broadcast { background-color: #440 !important; }
 
-/* HOTFIX: TEXT TOO DARK EVERYWHERE */
+/* TEXT TOO DARK EVERYWHERE */
 .c-message__body, .c-message__attachments, .c-message__attachments *,
 	.c-menu_item__button, .channel_purpose_text, .pin_file_title
 	{ color: #aaa !important; }
