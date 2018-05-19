@@ -888,7 +888,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let s = document.createElement('style');
     s.type = 'text/css';
-    s.innerHTML = css + fullCSS;
+    s.innerHTML = fullCSS;
     document.head.appendChild(s);
 
     webviews.forEach(webview => {
