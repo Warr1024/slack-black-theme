@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .app_preview_link_slug, .internal_member_link, .internal_user_group_link, ts-mention, .c-member_slug, .c-reaction
             { background-color: #111 !important; }
         .c-mrkdwn__mention, .c-mrkdwn__broadcast { background-color: #440 !important; }
+	.c-message--ephemeral { background-color: #000 !important; }
 
         /* TEXT TOO DARK EVERYWHERE */
         .c-message__body, .c-message__attachments, .c-message__attachments *,
