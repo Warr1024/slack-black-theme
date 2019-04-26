@@ -27,16 +27,18 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         /* MISSED TOO-LIGHT BACKGROUNDS */
-        .app_preview_link_slug, .internal_member_link, .internal_user_group_link, ts-mention, .c-member_slug, .c-reaction
+        .app_preview_link_slug, .internal_member_link, .internal_user_group_link, ts-mention, .c-member_slug, .c-reaction,
+	.p-threads_view__default_background, .p_threads_view_load_older_button, .p-message_input_field
             { background-color: #111 !important; }
         .c-mrkdwn__mention, .c-mrkdwn__broadcast { background-color: #440 !important; }
 	.c-message--ephemeral { background-color: #000 !important; }
 
         /* TEXT TOO DARK EVERYWHERE */
         .c-message__body, .c-message__attachments, .c-message__attachments *,
-            .c-message_kit__text, .c-menu_item__button, .channel_purpose_text, .pin_file_title
+        .c-message_kit__text, .c-menu_item__button, .channel_purpose_text, .pin_file_title,
+	.c-label__text, .c-icon
             { color: #aaa !important; }
-        .c-unified_member__display-name, .snippet_preview { color: #777 !important; }
+        .c-unified_member__display-name, .snippet_preview, .c-link--button { color: #777 !important; }
         `;
 
     let pokiujfCSS = `
