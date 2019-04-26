@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         /* TEXT TOO DARK EVERYWHERE */
         .c-message__body, .c-message__attachments, .c-message__attachments *,
-            .c-menu_item__button, .channel_purpose_text, .pin_file_title
+            .c-message_kit__text, .c-menu_item__button, .channel_purpose_text, .pin_file_title
             { color: #aaa !important; }
         .c-unified_member__display-name, .snippet_preview { color: #777 !important; }
         `;
