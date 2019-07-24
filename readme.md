@@ -1,7 +1,11 @@
-# Slack Black Theme
+# Slack Black Theme - Deprecated
 
-Alternative version with single-file installation, actively
-maintained for current versions of Slack.
+As of Slack v4+, this theme no longer installs correctly, and some
+alternatives provided by the community are robust and well-maintained.
 
-  *  Fork of `https://github.com/pokiujf/slack-black-theme`
-  *  Original at `https://github.com/widget-/slack-black-theme`
+On my MacBook, the theme I'm using is
+[https://github.com/elv1n/slack-dark-mojave-theme/blob/master/README.md#slack-dark-mojave-theme]()
+
+There is discussion, including alternatives
+that may work for other platforms, at
+[https://github.com/widget-/slack-black-theme/issues/98]()
